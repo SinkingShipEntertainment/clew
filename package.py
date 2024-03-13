@@ -45,7 +45,6 @@ def commands():
     env.CLEW_LOCATION = '{root}'
     env.CLEW_INCLUDE_DIR = "{root}/include"
     env.LD_LIBRARY_PATH.append("{root}/lib")
-    env.LD_LIBRARY_PATH.append("{root}/lib64")
 
 uuid = 'repository.clew'
 
