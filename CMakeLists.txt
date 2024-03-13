@@ -1,6 +1,6 @@
 project(clew)
 
-option( BUILD_TESTS "Build test program." ON )
+option( BUILD_TESTS "Build test program." OFF )  # Marcelo: was ON
 option( BUILD_SHARED_LIBRARY "Shared library, rather than static library." OFF )
 option( INSTALL_CL_HEADER "Install cl.h / opencl.h  proxy headers to ease compilation of software not aware of CLEW" OFF )
 
